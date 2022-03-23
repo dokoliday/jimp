@@ -1,0 +1,33 @@
+body {
+  font-family: sans-serif;
+}
+
+#container {
+  display: flex;
+}
+
+#before,
+#afterCrop {
+  padding: 10px;
+}
+
+#before {
+  background: lightcyan;
+}
+
+#afterCrop {
+  background: powderblue;
+}
+
+span {
+  position: absolute;
+  color: #fff;
+  background: #000;
+  opacity: 0.4;
+}
+
+.image-container {
+  border: 1px dashed grey;
+  padding: 0;
+  margin: 0;
+}
